@@ -1,0 +1,7 @@
+GetStorage
+Grava primeiro na memória e depois, salva em arquivo no disco, por meio do DART de forma asyncrona.
+
+SharedPreferences
+Grava no disco por meio do NATIVO
+
+O GS é mais rápido mas, não se compara, pois eles trabalhando de forma diferença.
