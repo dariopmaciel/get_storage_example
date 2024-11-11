@@ -32,6 +32,16 @@ class _HomePageState extends State<HomePage> {
               },
               child: const Text('Gravar Nome'),
             ),
+             ElevatedButton(
+              onPressed: () {
+                GetStorage().remove('nameKey');
+                setState(() {
+                  
+                });
+              },
+              child: const Text('Remover Nome'),
+            ),
+            
           ],
         ),
       ),
