@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(nome),
+            Text('Container padrão: $nome'),
             ElevatedButton(
               onPressed: () {
                 storage.write('nameKey', 'Dario P MAciel');
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
               child: const Text('Remover Listen'),
             ),
             const SizedBox(height: 30), //!------------------
-            Text('GetX: $nomeGetX'),
+            Text('Container segundario: $nomeGetX'),
             ElevatedButton(
               onPressed: () {
                 storageGetX.write('nameKey', 'Dario P MAciel - GetX');
